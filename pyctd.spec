@@ -1,5 +1,5 @@
 %define name pyctd
-%define version 0.2
+%define version 0.4.2
 %define rel 1
 
 Summary: A service for monitoring and altering Netfilter connections
@@ -39,9 +39,8 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %doc README
-%{_bindir}/%{name}.py
-%dir %{py_puresitedir}/_%{name}
-%{py_puresitedir}/_%{name}/*.py*
+%{_bindir}/%{name}
+%{py_puresitedir}/%{name}
 %{py_puresitedir}/*.egg-info
 %{py_puresitedir}/auto_daemon.py*
 
