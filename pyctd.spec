@@ -10,6 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Networking/Other
 Url: http://software.inl.fr/trac/trac.cgi/wiki/%{name}
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
 Requires: pynetfilter_conntrack
