@@ -1,12 +1,12 @@
 %define name pyctd
-%define version 0.4.2
+%define version 0.4.4
 %define rel 1
 
 Summary: A service for monitoring and altering Netfilter connections
 Name: %{name}
 Version: %{version}
 Release: %mkrel %rel
-Source0: %{name}-%{version}.tar.bz2
+Source0: %{name}-%{version}.tar.gz
 License: GPL
 Group: Networking/Other
 Url: http://software.inl.fr/trac/trac.cgi/wiki/%{name}
