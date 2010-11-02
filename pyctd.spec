@@ -1,6 +1,6 @@
 %define name pyctd
 %define version 0.4.4
-%define rel 3
+%define rel 4
 
 Summary: A service for monitoring and altering Netfilter connections
 Name: %{name}
