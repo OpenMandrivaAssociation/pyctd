@@ -9,7 +9,7 @@ Release: %mkrel %rel
 Source0: %{name}-%{version}.tar.gz
 License: GPL
 Group: Networking/Other
-Url: http://software.inl.fr/trac/trac.cgi/wiki/%{name}
+Url: https://software.inl.fr/trac/trac.cgi/wiki/%{name}
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
