@@ -5,7 +5,7 @@
 Summary: A service for monitoring and altering Netfilter connections
 Name: %{name}
 Version: %{version}
-Release: %mkrel %rel
+Release: %rel.1
 Source0: %{name}-%{version}.tar.gz
 License: GPL
 Group: Networking/Other
